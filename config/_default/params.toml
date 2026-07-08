@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon        = "img/favicon.png"
+favicon        = "img/favicon.svg"
 
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
@@ -18,7 +18,7 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
+    emoji    = "⚡️"
     # subtitle = "[Digital Carrot](https://www.digitalcarrot.app/)"
     subtitle = "I like making things.</br></br><a href='https://www.digitalcarrot.app/'>Digital Carrot</a> is the best thing I've made so far!"
     avatar   = "img/avatar.jpg"
