@@ -1,14 +1,13 @@
 ---
 title: MTG Whiteboard Tokens
 description: Magic the Gathering Dry Erase Tokens
-slug: hello-world
+slug: mtg-tokens
 date: 2026-07-07 00:00:00+0000
 image: tokens.jpg
 categories:
     - Projects
 tags:
     - Magic the Gathering
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 One of my on again off again obsessions is Magic the Gathering. My friends and I play a lot of commander which always requires lots of fiddly counters and a random assortment of tokens.
