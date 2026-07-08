@@ -158,7 +158,7 @@ This architecture means that I get access to the full suite of tools available t
 
 #### The business logic can run over any protocol
 
-Putting all of my communication on a network capable interface such as protocol means that the backend can run just about anywhere. This has been hugely advantageous on Windows and Mac. On these platforms the backend runs as a daemon in the background and the UI connects to it via gRPC via sockets or pipes. Digital Carrot needs to continuously run in the background to be able to block programs and websites, so being able to just run the Go daemon on it's own is great since there is no need to load all of the UI cruft into memory. As a result Digital Carrot only needs on the order of 30-60mb of RAM to run in the background.
+Putting all of my communication on a network capable interface such as protocol means that the backend can run just about anywhere. This has been hugely advantageous on Windows and Mac. On these platforms the backend runs as a daemon in the background and the UI connects to it via gRPC over sockets or pipes. Digital Carrot needs to continuously run in the background to be able to block programs and websites, so being able to just run the Go daemon on it's own is great since there is no need to load all of the UI cruft into memory. As a result Digital Carrot only needs on the order of 30-60mb of RAM to run in the background.
 
 While this doesn't help much for Digital Carrot, this could also be an advantage for other types of apps. For example you could create a document editor that can run on a home server or locally on device by just pointing the UI to a different API on the network.
 
