@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2022-03-06
+date: 2026-07-07
 slug: "about-me"
 menu:
     main:
@@ -16,7 +16,7 @@ I'm a independent/ freelance software developer, currently focused on building [
 I'm available for hire for contract work. Check out my work on GitHub. My resume is available upon request via LinkedIn. I have 10 years of experience in:
 
 - Web development with Django, React and Typescript
-- Mobile app development with Flutter and Go (check out my article on building mobile apps with Go)
+- Mobile app development with Flutter and Go (check out [my article on building mobile apps with Go](/p/one-year-of-gomobile))
 - gRPC services in Go
 
 My core technologies are:

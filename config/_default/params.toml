@@ -20,7 +20,7 @@ SortBy              = "default"
 [sidebar]
     emoji    = "⚡️"
     # subtitle = "[Digital Carrot](https://www.digitalcarrot.app/)"
-    subtitle = "I like making things.</br></br><a href='https://www.digitalcarrot.app/'>Digital Carrot</a> is the best thing I've made so far!"
+    subtitle = "I like making things and this is where I talk about them.</br></br><a href='https://www.digitalcarrot.app/'>Digital Carrot</a> is the best thing I've made so far!"
     avatar   = "img/avatar.jpg"
 
 [article]

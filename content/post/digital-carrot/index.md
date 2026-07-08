@@ -2,7 +2,7 @@
 title: Digital Carrot
 description: One screen time app to rule them all
 slug: digital-carrot
-date: 2026-07-06 00:00:00+0000
+date: 2026-07-08 00:00:00+0000
 image: logo-full.png
 categories:
     - Projects
@@ -11,6 +11,8 @@ categories:
 ---
 
 ## Introduction
+
+[www.digitalcarrot.app](https://www.digitalcarrot.app/)
 
 I wanted to get in shape before my honeymoon back in 2025 so that I would look good in pictures and be able to handle all of the walking my wife and I were planning. I created a Python script that read how many steps I took each day from my Garmin watch and then blocked youtube until I hit 10,000 steps. This was wildly successful, helping me lose 20lb as well as get some of my focus back! I decided to that this was a product worth sharing with the world, so I created Digital Carrot.
 

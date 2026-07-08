@@ -2,7 +2,7 @@
 title: Using Go for Mobile Apps
 description: A retrospective on a year of development with Gomobile
 slug: one-year-of-gomobile
-date: 2026-07-06 00:00:00+0000
+date: 2026-06-13 00:00:00+0000
 image: head.png
 # categories:
 #     - Projects
@@ -42,24 +42,6 @@ flowchart TD
     go -- Calls to native APIs </br> (screen time, health) --> native
 ```
 
-
-vvv CUT vvv
-### UI
-
- With Fyne out of the picture, I was left with two solid cross platform options:
-
-- Flutter
-- React Native
-
-Ultimately I ended up choosing Flutter for a couple of reasons:
-
-- Its was a lot easier to get started with.
-- It has a much clearer cross platform story. I didn't see an easy way to do a mobile and desktop app with React Native. I know it's possible with Electron, but as a solo dev the out of the box support for Mac, Windows and Linux in Flutter was just too enticing.
-- pub.dev is a great central location for finding Flutter packages and had integrations for Apple and Google health.
-
-I do have some regrets picking Flutter. When it came time to build UI widgets for the plugin system I couldn't find a way to build dynamic UIs in Flutter and it would have been so much easier to just let plugins build React UIs. Aside from that, it's been largely very positive.
-
-^^^ CUT ^^^
 ### Flutter to Go Communication
 
 As mentioned above, Flutter communicates with Go using Protobuf messages. Protobuf is a MUST here as it allows me to work with nice structs/classes in Go and Dart without having to do a lot of manual marshalling and unmarshalling of JSON objects. I can define my messages in Protobuf and automatically get nice objects in Dart and Go to work with. Communication between Flutter, platform code and Go can only be done with basic data types (strings, binary, booleans, etc) so Protobuf messages are perfect for this use case.
