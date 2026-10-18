@@ -1,6 +1,6 @@
 ---
 title: Hover.com is a Masterclass in Dark Patterns
-description: How Hover fools you into buying domains you don't need at checkout
+description: How Hover fools you into buying expensive domains you don't need at checkout
 slug: hover-dark-patterns
 date: 2026-10-18 00:00:00+0000
 # image: head.png
